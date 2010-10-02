@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chinmay Garde"]
   s.date = %q{2010-10-01}
-  s.description = %q{Get RCov notifications via Growl}
+  s.description = %q{Get RCov notifications via Growl. More on GitHub}
   s.email = %q{chinmaygarde@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
      "lib/rcov_notifier.rb",
      "lib/rcov_notifier/growl.rb",
      "lib/rcov_notifier/rcov_notifier.rb",
+     "rcov_notifier.gemspec",
      "spec/rcov_notifier_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"

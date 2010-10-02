@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "rcov_notifier"
     gem.summary = %Q{Get RCov notifications via Growl}
-    gem.description = %Q{Get RCov notifications via Growl}
+    gem.description = %Q{Get RCov notifications via Growl. More on GitHub}
     gem.email = "chinmaygarde@gmail.com"
     gem.homepage = "http://github.com/chinmaygarde/rcov_notifier"
     gem.authors = ["Chinmay Garde"]
