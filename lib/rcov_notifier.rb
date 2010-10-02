@@ -1,5 +1,4 @@
 require 'nokogiri'
-require 'rcov_notifier/growl'
 require 'rcov_notifier/rcov_notifier'
 
 Autotest.add_hook :waiting do
