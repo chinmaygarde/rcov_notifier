@@ -9,6 +9,7 @@ begin
     gem.description = %Q{Get RCov notifications via Growl. More on GitHub}
     gem.email = "chinmaygarde@gmail.com"
     gem.homepage = "http://github.com/chinmaygarde/rcov_notifier"
+    gem.post_install_message = "\n\e[1;32m" + File.read('PostInstall.txt') + "\e[0m\n"
     gem.authors = ["Chinmay Garde"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_dependency "nokogiri"

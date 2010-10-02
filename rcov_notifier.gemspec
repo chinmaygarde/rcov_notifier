@@ -24,9 +24,12 @@ Gem::Specification.new do |s|
      "README.markdown",
      "Rakefile",
      "VERSION",
+     "growl/growlnotify",
+     "growl/growlnotify.com",
+     "images/application.png",
      "images/img.png",
+     "images/status.png",
      "lib/rcov_notifier.rb",
-     "lib/rcov_notifier/growl.rb",
      "lib/rcov_notifier/rcov_notifier.rb",
      "rcov_notifier.gemspec",
      "spec/rcov_notifier_spec.rb",
@@ -34,6 +37,17 @@ Gem::Specification.new do |s|
      "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/chinmaygarde/rcov_notifier}
+  s.post_install_message = %q{
+[1;32m----------------------------------------------------
+----------------------------------------------------
+
+Add the following to your ~/.autotext file
+
+	require 'rcov_notifier'
+
+----------------------------------------------------
+----------------------------------------------------[0m
+}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
