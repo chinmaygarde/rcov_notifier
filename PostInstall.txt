@@ -1,7 +1,7 @@
 ----------------------------------------------------
 ----------------------------------------------------
 
-Add the following to your ~/.autotext file
+Add the following to your ~/.autotest file
 
 	require 'rcov_notifier'
 
