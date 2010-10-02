@@ -1,8 +1,6 @@
-require 'rubygems'
-require 'rbconfig'
-require 'autotest'
 require 'nokogiri'
-
+require 'osx/cocoa'
+require 'rcov_notifier/growl'
 require 'rcov_notifier/rcov_notifier'
 
 Autotest.add_hook :waiting do

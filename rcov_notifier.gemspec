@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chinmay Garde"]
-  s.date = %q{2010-10-01}
+  s.date = %q{2010-10-02}
   s.description = %q{Get RCov notifications via Growl. More on GitHub}
   s.email = %q{chinmaygarde@gmail.com}
   s.extra_rdoc_files = [
@@ -24,12 +24,11 @@ Gem::Specification.new do |s|
      "README.markdown",
      "Rakefile",
      "VERSION",
-     "growl/growlnotify",
-     "growl/growlnotify.com",
      "images/application.png",
      "images/img.png",
      "images/status.png",
      "lib/rcov_notifier.rb",
+     "lib/rcov_notifier/growl.rb",
      "lib/rcov_notifier/rcov_notifier.rb",
      "rcov_notifier.gemspec",
      "spec/rcov_notifier_spec.rb",
